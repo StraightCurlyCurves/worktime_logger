@@ -32,7 +32,7 @@ You realise you're not so great as thought in multitasking and you can't work pr
 
 ![netflix](https://user-images.githubusercontent.com/45213106/176222312-03e4e695-6bd2-49c1-8ec6-cea1ae99922d.PNG)
 
-After 2 hours, you will run out of Netflix time. To prevent yourself from watching Netflix for too long, use the command `c 10 6` to change the current _goal_ for Netflix to 6 hours and you're fine. For the next 4 hours.
+After 2 hours (_Goal_), you will run out of Netflix time. To prevent yourself from watching Netflix for too long, use the command `c 10 6` to change the current _Goal_ for Netflix to 6 hours and you're fine. For the next 4 hours.
 
 ![changed_goal](https://user-images.githubusercontent.com/45213106/176236408-fa942dca-d1fb-411a-98d6-98b28691fe14.PNG)
 
