@@ -555,7 +555,7 @@ class timemanager:
         plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=interv))
         plt.bar(x, y, color=self.plot_color)
         plt.title(self.project_name)
-        plt.ylabel("working time in [h]")
+        plt.ylabel("time [h]")
         if limit_in_h:
             plt.ylim(top=limit_in_h)
         plt.gcf().autofmt_xdate()
