@@ -1,0 +1,32 @@
+% FORMAT:
+% [Project Name (string)], [Goal (float)], [Reversed Color (boolean)]
+
+% Project Name: Any kind of string for your Project name. Maybe not too long for cosmetic reasons.
+% Goal (optional, standard: 2h): Your working goal for a day, in hours. Standard is set automatically to 2h.
+% Reversed Color (optional, standard: 0): if 0, 0% progress is red and 100% progress is green. If 1, the other way around.
+
+% [%] Hide Project in the application or make a comment.
+% [#] Set a certain Project as #0 Project (to use shorted commands). If more project have a "#", the first Project with # is choosen.
+% [@] Makes a group (title) for projects beneath. Only cosmetics in the project view.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% EXAMPLE:
+
+@Work:
+Project_0
+#Project_1, 6
+
+@Semesterprojects:
+Thesis
+Project_2
+Project_3
+Project_4
+Project_5
+
+@Free time:
+Programming
+Gaming, 4.5, 1
+Internet,, 1
+Netflix,, 1
+Exercise, 0.5
