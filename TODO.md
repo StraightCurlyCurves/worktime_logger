@@ -1,0 +1,15 @@
+# TODO
+- start from scratch and don't write spaghetti code!
+- add worked time to project manually
+- function to return time worked between two time stamps
+- show projects which are not in projects.txt but in main_data.csv in a new section. Maybe greyed out but still functional.
+- total time --> new time variable that stops time when any project is running
+- implement a sound when a project reached 100%
+- plot bars color according to percentage color (red to green)
+- sort main_data.csv correctly
+- optimize (shorten) read function for projects, goals and reversed colors
+- make console uncloseable until quit
+- write new goal to projects.txt
+- option for no goal
+- write to temp_data immediately after starting a timer to prevent dataloss
+- add comments!
