@@ -1,7 +1,13 @@
 # Worktime Logger
-Console based worktime logger to log the worked time for different projects
+This is a console based worktime logger to log the worked time for different projects.
+
+## Quick Start
+
+First, see [projects.txt](projects.txt) for instructions on how to set up projects. Start `main.py` and use the command `help` to see all available commands or follow the real life example.
 
 ## Real Life Example:
+
+_Note: Following commands were made with the default `projects.txt`._
 
 ### Start working on one or multiple projects
 
@@ -10,7 +16,7 @@ Because you're great in multitasking and work alone is boring, you start watchin
 
 ### Have an overview of the current day's work
 
-You see the running projects marked in the _Projects Overview_, as well in the _Current Progress Monitor_ with the progress bar filled:
+You see the running projects marked in the _Projects Overview_, as well in the _Current Progress Monitor_ with the progress bar filled. Switch with `v` between them:
 
 Projects Overview    |  Current Progress Overview
 :-------------------------:|:-------------------------:
@@ -28,24 +34,33 @@ You realise you're not so great as thought in multitasking and you can't work pr
 
 After 2 hours, you will run out of Netflix time. To prevent yourself from watching Netflix for too long, use the command `c 10 6` to change the current _goal_ for Netflix to 6 hours and you're fine. For the next 4 hours.
 
-![changed_goal](https://user-images.githubusercontent.com/45213106/176221816-83bb0118-eb44-4311-92e0-e3d3deb69dc8.PNG)
+![changed_goal](https://user-images.githubusercontent.com/45213106/176236408-fa942dca-d1fb-411a-98d6-98b28691fe14.PNG)
 
 ### Plot all your time worked on a project
-Use the command `plot #` to generate and open a plot for the project number #:
 
-![plot](https://user-images.githubusercontent.com/45213106/176224600-a055d69a-57fe-43a0-b3fa-d579a3ce77fe.png)
+Step 1:
+- Use the command `plot #` to generate and open a plot for the project number #
+
+Step 2:
+- be proud of what you have accomplished:
+
+![plot](https://user-images.githubusercontent.com/45213106/176239392-35e274f1-9c39-4965-8c5d-6b26556aed81.png)
 
 ### Help
 
-Use the command `help` to get an overview of all the commands available:
+You can get professional help here: [Netflix Help](https://help.netflix.com) or here: [Mental Health Line](https://www.healthline.com), depending on your needs.
+
+If you're still up for work, you can use the command `help` to get an overview of all the commands available:
 
 ![help](https://user-images.githubusercontent.com/45213106/176223482-ce7a9eb1-8c1c-4595-b381-ef2e784178a5.PNG)
 
 ### Quit
 
-Quit the _Worktime Logger_ with the command `q`. It will stop all running projects and print the today's log:
+Quit the _Worktime Logger_ with the command `q`. It will stop all running projects and print the log of the current session:
 
-![quit](https://user-images.githubusercontent.com/45213106/176222958-89b641d3-4a66-4b9e-be7e-42ce738e3bed.PNG)
+![quit](https://user-images.githubusercontent.com/45213106/176244317-e99c6a30-d6ab-45b8-814e-3a116b83f84f.PNG)
+
+Pro tip: The _Worktime Logger_ won't know if you quit Netflix as well or not. Just sayin...
 
 ## Error handling
 Error    |  Error handling
