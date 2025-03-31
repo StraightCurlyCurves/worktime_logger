@@ -3,10 +3,10 @@
 
 % Project Name: Any kind of string for your Project name. Maybe not too long for cosmetic reasons.
 % Goal (optional, standard: 2h): Your working goal for a day, in hours. Standard is set automatically to 2h.
-% Reversed Color (optional, standard: 0): if 0, 0% progress is red and 100% progress is green. If 1, the other way around.
+% Reversed Color (optional, standard: 0): if 0, 0% progress is red and 100% progress is green. If 1, it's the other way around.
 
 % [%] Hide Project in the application or make a comment.
-% [#] Set a certain Project as #0 Project (to use shorted commands). If more project have a "#", the first Project with # is choosen.
+% [#] Set a certain Project as #0 Project (to use shorted commands). If more project have a "#", the first Project with # is chosen.
 % [@] Makes a group (title) for projects beneath. Only cosmetics in the project view.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
